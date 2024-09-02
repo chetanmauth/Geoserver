@@ -1,7 +1,7 @@
 # Geoserver Tile overlay on Google Maps
 Geoserver format=image/png
 <br></br>
-<img src="https://github.com/chetanmauth/Geoserver/blob/main/images/geoImage.jpeg" width="250">
+<img src="https://github.com/chetanmauth/Geoserver/blob/main/images/geoImage.jpeg" width="200">
 <br></br>
 
 Geoserver format=application/json
