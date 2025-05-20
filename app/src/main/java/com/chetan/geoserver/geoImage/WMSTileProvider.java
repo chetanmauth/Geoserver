@@ -31,7 +31,7 @@ public class WMSTileProvider implements TileProvider {
         return Math.toDegrees(Math.atan(Math.sinh(n)));
     }
 
-    //For "EPSG_4326"
+    //For "EPSG_3857"
     private String getBoundingBoxEPSG_3857(int x, int y, int zoom) {
 
         double initialResolution = 2 * Math.PI * 6378137 / tileSize;
@@ -98,7 +98,7 @@ public class WMSTileProvider implements TileProvider {
         }
     }
 
-    //For "EPSG_3857"
+    //For "EPSG_4326"
     private String getBoundingBoxEPSG_4326(int x, int y, int zoom) {
         double minLon = tileXToLon(x, zoom);
         double maxLon = tileXToLon(x + 1, zoom);
