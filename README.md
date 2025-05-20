@@ -5,6 +5,6 @@
 <img src="https://github.com/chetanmauth/Geoserver/blob/main/images/geoImage.jpeg" width="200"></br>
 
 2. format=application/json & EPSG:4326</br>
-referenc: https://developers.google.com/maps/documentation/android-sdk/utility/geojson
+reference: https://developers.google.com/maps/documentation/android-sdk/utility/geojson
 </br>
 <img src="https://github.com/chetanmauth/Geoserver/blob/main/images/geoJson.jpeg" width="200">
